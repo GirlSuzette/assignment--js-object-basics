@@ -13,7 +13,16 @@
 
 
 
-
+function flipColor(obj){
+ 
+ if( obj.color === "blue"){
+     obj["color"] = "red";
+  }else{
+    obj["color"] = "blue";
+  }
+return obj;
+// console.log(obj);
+}
 
 
 

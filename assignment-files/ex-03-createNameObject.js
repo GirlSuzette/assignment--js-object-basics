@@ -10,6 +10,18 @@
 
 // ++ YOUR CODE HERE
 
+function createNameObject(obj){
+   var fullName = obj.split(" ");
+   var firs = fullName[0];
+   var last = fullName[1];
+
+   var separateName = {
+     firstName: firs,
+     lastName: last
+   }
+  return separateName;
+}
+
 
 
 

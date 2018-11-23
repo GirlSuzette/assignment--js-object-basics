@@ -24,6 +24,26 @@
 // ++ YOUR CODE HERE
 
 
+  function createListOfObjects(namesList){
+    var array = [];
+    for (var i = 0; i < namesList.length; i++){
+      var name = namesList[i].split(" ");
+
+      var firs = name[0];
+      var last = name[1];
+ 
+    var separateName = {}
+        separateName["firstName"] = firs;
+        separateName["lastName"] = last;
+        array.push(separateName);
+
+
+   return array;
+ }
+ 
+
+
+
 
 
 

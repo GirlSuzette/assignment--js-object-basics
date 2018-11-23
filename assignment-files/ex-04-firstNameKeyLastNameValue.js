@@ -22,6 +22,22 @@
 
 // ++ YOUR CODE HERE
 
+function firstNameKeyLastNameValue(fullName1, fullName2, fullName3){
+  var fullName1 = fullName1.split(" ");
+  var fullName2 = fullName2.split(" ");
+  var fullName3 = fullName3.split(" ");
+ 
+  var separateName = {}
+
+  separateName[fullName1[0]] = fullName1[1];
+  separateName[fullName2[0]] = fullName2[1];
+  separateName[fullName3[0]] = fullName3[1];
+
+return separateName
+
+   
+}
+
 
 
 

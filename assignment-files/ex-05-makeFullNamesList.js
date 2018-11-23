@@ -11,9 +11,21 @@
 
 // ++ YOUR CODE HERE
 
+function makeFullNamesList(array){
+  var newArray = [];
 
 
+	for (var i = 0; i < array.length; i++){
+	  if (array[i].gender === "female"){
+		     newArray.push("Ms. " + array[i].first + " " + array[i].last)
+	  } else if(array[i].gender === "male"){
+        newArray.push("Mr. " + array[i].first + " " + array[i].last)
+	    }
+	  
+   }
+    return newArray;
 
+}
 
 
 
@@ -52,7 +64,7 @@ var moreNamesList = makeFullNamesList(moreCustomersList)
 console.log('TEST-1');
 
 console.assert(Array.isArray(fullNamesList1) === true)
-console.assert(typeof fullNamesList[0] === 'string')
+console.assert(typeof fullNamesList1[0] === 'string')
 
 console.assert(Array.isArray(moreNamesList) === true)
 console.assert(typeof moreNamesList[1] === 'string')
