@@ -36,7 +36,7 @@
         separateName["firstName"] = firs;
         separateName["lastName"] = last;
         array.push(separateName);
-
+    }
 
    return array;
  }

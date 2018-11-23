@@ -13,8 +13,7 @@
 
 function makeFullNamesList(array){
   var newArray = [];
-
-
+  
 	for (var i = 0; i < array.length; i++){
 	  if (array[i].gender === "female"){
 		     newArray.push("Ms. " + array[i].first + " " + array[i].last)
